@@ -1,4 +1,9 @@
 /* Reset */
+.container {
+  width: 100%;
+  min-height: 200px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -144,7 +149,7 @@
   .about-container {
     display: flex;
     flex-wrap: wrap;
-    max-width: 1200px;
+    max-width: 100%;
     align-items: center;
     gap: 30px; /* Jarak antara elemen */
   }
@@ -172,13 +177,13 @@
   }
   
   .about-content h2 {
-    font-size: 50px;
+    font-size: 30px;
     color: #134e4a;
     margin-bottom: 20px;
   }
   
   .about-content p {
-    font-size: 20px;
+    font-size: 17px;
     line-height: 1.8;
     color: #567d71;
     margin-bottom: 15px;
